@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Iceland&family=Outfit:wght@100..900&family=Prata&family=Updock&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,6 +16,21 @@ a.active hr{
   font-family: "Prata", serif;
   font-weight: 400;
   font-style: normal;
+}
+.fascinate-regular {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.iceland-regular {
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: large;
+}
+.updock-regular {
+  font-family: "Updock", cursive;
+  font-weight: 400;
+  font-style:normal
 }
 
 ::-webkit-scrollbar{
